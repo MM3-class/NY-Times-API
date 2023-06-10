@@ -1,15 +1,4 @@
-/* 
-.spinner-contain {
-    width: 100vw;
-    height: 100vh;
-    z-index: 999;
-    background-color: #B8B8B8;
-    margin: 0 auto !important;
-    padding: 0 !important;
-    overflow: hidden;
-    position: absolute;
-    top: 0;
-} */
+
 .spinner {
     position: relative;
     width: 50px;

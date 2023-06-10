@@ -110,4 +110,8 @@
     height: 35px !important;
     width: 80% !important;
   }
+  .spinner {
+    width: 20px;
+    height: 20px;
+}
 }
