@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Header from "../components/header/Header";
 import NotFound from "../components/notFound/NotFound";
@@ -13,10 +13,8 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route exact path="/home" render={() => {
-          return (<Home />)
-        }} />
-        <Route path="/" exact element={<Home />} />
+        <Route path="/" exact element={<Navigate to= "/home"/>} />
+        <Route path="/home"  element={<Home />} />
         <Route path="/search" element={<SearchField />} />
         <Route path="/fashion" element={<Fashion />} />
         <Route path="art" element={<Arts />} />
