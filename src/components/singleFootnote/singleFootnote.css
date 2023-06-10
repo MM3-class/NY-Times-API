@@ -1,0 +1,17 @@
+.footnote {
+    border-bottom: thin solid;
+    padding: 15px;
+}
+small {
+    color: var(--third-color);
+}
+.title {
+    padding: 8px 0;
+}
+.subtitle {
+    font-size: 1.1rem;
+    color: #fff;
+    line-height: 22px;
+    font-weight: 100;
+    padding-bottom: 8px;
+}

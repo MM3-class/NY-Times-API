@@ -1,0 +1,9 @@
+.not-found {
+    height: 81vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-size: 3rem;
+}

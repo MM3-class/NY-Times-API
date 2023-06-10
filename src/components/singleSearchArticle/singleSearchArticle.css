@@ -1,0 +1,19 @@
+.search-field {
+    width: 100%;
+}
+.search-content {
+    width: 70%;
+    margin: auto;
+    padding: 16px;
+}
+.search-title {
+    font-weight: 200;
+    font-size: 1.1rem;
+}
+.category {
+    color: #fff;
+    padding-top: 16px;
+    font-size: .9rem;
+    font-weight: 100;
+    line-height: 22px;
+}

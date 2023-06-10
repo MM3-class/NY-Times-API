@@ -1,0 +1,113 @@
+:root {
+  --primary-color: #1b1b1b;
+  --secondary-color: #343434;
+  --third-color: #4e4e4e;
+  --title-color: #fff;
+  --description-color: #B8B8B8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Google Sans", sans-serif;
+  text-decoration: none;
+  list-style: none;
+}
+
+.App {
+  background: var(--third-color);
+  box-shadow: inset 0px 5px 10px rgba(26, 115, 232, 0.25), inset 0px -2.5px 6px rgba(0, 0, 0, 0.4), inset 0px 2.5px 6px rgba(255, 255, 255, 0.4);
+  backdrop-filter: blur(75px);
+  color: #fff;
+  width: 100%;
+  overflow: hidden;
+}
+
+.home {
+  background-color: var(--third-color);
+  width: 95%;
+  margin: auto;
+
+}
+
+.feed-all {
+  width: 90%;
+  margin: 15px auto;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.feeds {
+  width: 100%;
+  flex: 2;
+  border-radius: 12px;
+  padding: 12px;
+  background-color: var(--secondary-color);
+}
+
+.footnote {
+  flex: 1;
+  padding: 12px;
+  border-radius: 12px;
+  background-color: var(--secondary-color);
+}
+
+.header-home {
+  padding: 15px 15px 0 15px;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1200px) {
+  .feed-all {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 860px) {
+  html {
+    font-size: calc(60% + 0.8vmin);
+  }
+
+  * {
+    font-size: 1rem;
+    margin: 0;
+  }
+
+  .main {
+    overflow: hidden;
+  }
+
+  .profile {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .single-feed {
+    flex-direction: column;
+    gap: 18px;
+  }
+  .feed-img-contain {
+    width: 100% !important;
+  }
+  
+  .feed-description {
+    gap: 0 !important;
+  }
+  .feed-img {
+    width: 100% !important;
+  }
+  .feed-img img {
+    object-fit: cover !important;
+    object-position: center 10%;
+  }
+}
+@media screen and (max-width: 414px) {
+  .search-term {
+    height: 35px !important;
+    width: 80% !important;
+  }
+}

@@ -1,0 +1,33 @@
+/* .home {
+  background-color: var(--third-color);
+  width: 95%;
+  margin: auto;
+}
+
+.feed-all {
+  width: 90%;
+  margin: 15px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.feeds {
+  flex: 2;
+  border-radius: 12px;
+  padding: 12px;
+  background-color: var(--secondary-color);
+}
+
+.footnote {
+  flex: 1;
+  padding: 12px;
+  border-radius: 12px;
+  background-color: var(--secondary-color);
+}
+
+.header-home {
+  padding: 15px 15px 0 15px;
+  font-size: 1.2rem;
+} */
