@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/MM3-class.github.io/NY-Times-API/static/css/main.1c526196.css",
+    "main.js": "/MM3-class.github.io/NY-Times-API/static/js/main.9f4c6a0c.js",
+    "index.html": "/MM3-class.github.io/NY-Times-API/index.html",
+    "main.1c526196.css.map": "/MM3-class.github.io/NY-Times-API/static/css/main.1c526196.css.map",
+    "main.9f4c6a0c.js.map": "/MM3-class.github.io/NY-Times-API/static/js/main.9f4c6a0c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c526196.css",
+    "static/js/main.9f4c6a0c.js"
+  ]
+}
