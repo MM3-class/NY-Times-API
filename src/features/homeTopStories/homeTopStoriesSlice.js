@@ -3,6 +3,7 @@ import topStories from "../../api/topStories";
 import { API_KEY } from "../../api/api_key";
 
 const HOME_END_POINT = "home.json?api-key=";
+
 export const loadHomeTopStories = createAsyncThunk(
   "home/topStories",
   async () => {
