@@ -1,4 +1,4 @@
-import { Navigate, Route, Routes } from "react-router-dom";
+import {Route, Routes } from "react-router-dom";
 import "./App.css";
 import Header from "../components/header/Header";
 import NotFound from "../components/notFound/NotFound";
@@ -13,8 +13,7 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<Navigate to= "/ny-times-api"/>} replace/>
-        <Route path="/ny-times-api"  element={<Home />} />
+        <Route path="/"  element={<Home />} />
         <Route path="/search" element={<SearchField />} />
         <Route path="/fashion" element={<Fashion />} />
         <Route path="art" element={<Arts />} />
