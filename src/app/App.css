@@ -5,6 +5,9 @@
   --title-color: #fff;
   --description-color: #B8B8B8;
 }
+body {
+  background-color: var(--third-color);
+}
 
 * {
   margin: 0;
